@@ -534,16 +534,16 @@
         },
         {
             "name": "christophwurst/nextcloud",
-            "version": "v21.0.0-beta8",
+            "version": "v21.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChristophWurst/nextcloud_composer.git",
-                "reference": "7c7a5bd142ec8799c8bff8c34abc0d22c97c6c87"
+                "reference": "41e1476b4aed5bce7371895054049eca353729c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChristophWurst/nextcloud_composer/zipball/7c7a5bd142ec8799c8bff8c34abc0d22c97c6c87",
-                "reference": "7c7a5bd142ec8799c8bff8c34abc0d22c97c6c87",
+                "url": "https://api.github.com/repos/ChristophWurst/nextcloud_composer/zipball/41e1476b4aed5bce7371895054049eca353729c5",
+                "reference": "41e1476b4aed5bce7371895054049eca353729c5",
                 "shasum": ""
             },
             "require": {
@@ -568,9 +568,9 @@
             "description": "Composer package containing Nextcloud's public API (classes, interfaces)",
             "support": {
                 "issues": "https://github.com/ChristophWurst/nextcloud_composer/issues",
-                "source": "https://github.com/ChristophWurst/nextcloud_composer/tree/v21.0.0-beta8"
+                "source": "https://github.com/ChristophWurst/nextcloud_composer/tree/v21.0.0"
             },
-            "time": "2021-02-03T07:55:40+00:00"
+            "time": "2021-03-01T08:42:25+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -3695,9 +3695,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "christophwurst/nextcloud": 10
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
