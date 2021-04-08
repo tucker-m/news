@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ac5f7676d857ef288dcf2998c4203f2",
+    "content-hash": "373aeca01c0df68b033a920e5d8bd843",
     "packages": [
         {
             "name": "andreskrey/readability.php",
@@ -123,16 +123,16 @@
         },
         {
             "name": "debril/feed-io",
-            "version": "v4.8.0",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexdebril/feed-io.git",
-                "reference": "5239890978c8136668a052fbf3f1302512cd6a9a"
+                "reference": "e3aa4dbe3fae8dd23704f159b15c14e474a2ffae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexdebril/feed-io/zipball/5239890978c8136668a052fbf3f1302512cd6a9a",
-                "reference": "5239890978c8136668a052fbf3f1302512cd6a9a",
+                "url": "https://api.github.com/repos/alexdebril/feed-io/zipball/e3aa4dbe3fae8dd23704f159b15c14e474a2ffae",
+                "reference": "e3aa4dbe3fae8dd23704f159b15c14e474a2ffae",
                 "shasum": ""
             },
             "require": {
@@ -140,13 +140,14 @@
                 "ext-json": "*",
                 "ext-libxml": "*",
                 "guzzlehttp/guzzle": "~6.2|~7.0",
-                "php": ">=7.1",
+                "php": ">=8.0",
                 "psr/log": "~1.0",
                 "symfony/console": "~3.4|~4.0|~5.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.4",
                 "monolog/monolog": "1.*",
+                "phpstan/phpstan": "^0.12.81",
                 "phpunit/phpunit": "~9.3.0"
             },
             "suggest": {
@@ -184,7 +185,7 @@
             ],
             "support": {
                 "issues": "https://github.com/alexdebril/feed-io/issues",
-                "source": "https://github.com/alexdebril/feed-io/tree/v4.8.0"
+                "source": "https://github.com/alexdebril/feed-io/tree/v5.0.0"
             },
             "funding": [
                 {
@@ -192,7 +193,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-29T16:42:17+00:00"
+            "time": "2021-04-07T20:43:31+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
